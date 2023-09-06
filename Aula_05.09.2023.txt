@@ -1,0 +1,9 @@
+=== CACHE DE MEMÓRIA === 05.09.2023
+
+PRIMÁRIO
+> Registradores
+> Cache
+> RAM
+
+SECUNDÁRIO
+> Disco Rígido
