@@ -1,5 +1,3 @@
-package ARQUIVOS;
-
 import java.io.PrintWriter;
 
 class Arquivos{
