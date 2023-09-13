@@ -9,14 +9,13 @@ class Arquivos_Tarefa3{
         nome_arquivo = String.format("arquivo_%s.jpg", nome);
 
         try{
-            PrintWriter saida = new PrintWriter(nome_arquivo);
-
-
-            for(i=1; i<=1000; i++){
-                saida.println(i);
+            try (PrintWriter saida = new PrintWriter(nome_arquivo)) {
+                for(i=1; i<=1000; i++){
+                    saida.println(i);
+                }
+                
+                saida.close();
             }
-            
-            saida.close();
 
         }catch(Exception e){
             System.out.println("Erro no arquivo.");

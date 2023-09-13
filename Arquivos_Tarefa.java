@@ -6,11 +6,13 @@ class Arquivos_Tarefa{
 
         try{
             PrintWriter saida = new PrintWriter("numeros.txt");
+            saida.close();
 
             for(i=1; i<=10; i++){
                 saida.println(i);
             }
             saida.close();
+
         }catch(Exception e){
             System.out.println("Erro no arquivo.");
         }
