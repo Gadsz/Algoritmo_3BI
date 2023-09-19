@@ -1,12 +1,9 @@
-import java.io.PrintWriter;
-import java.io.FileWriter;
 import java.io.File;
 import java.util.Scanner;
 
 class Arquivo_Tarefa6 {
     public static void main (String[] args) {
-        int n = 10;
-        int i, j;
+        int i;
 
         File arquivo;
         Scanner entrada;
